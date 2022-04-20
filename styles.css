@@ -3,6 +3,7 @@
   --g-600: #1c1c1c;
   --g-500: #313131;
   --g-400: #4b4b4b;
+  --g-200: #e5e5e57c;
   --primary-900: #000814;
   --primary-800: #061b3b;
   --primary-600: #0c2f63;
@@ -194,4 +195,34 @@ button:active {
   background-color: var(--danger-600);
   border-color: var(--danger-600);
   color: var(--danger-text);
+}
+
+input {
+  display: block;
+  width: 100%;
+  font-size: 1rem;
+  background-color: var(--g-200);
+  border-radius: 2px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid;
+  border-width: 2px;
+  border-color: var(--g-200);
+  padding: 0.25rem 0.5rem;
+}
+
+.radio {
+  display: inline;
+  width: auto;
+}
+
+select {
+  display: block;
+  width: 100%;
+  padding: 0.25rem 0.5rem;
+  background-color: var(--g-200);
+  border-color: var(--g-400);
+  font-size: 1rem;
+  border-radius: 2px;
 }
