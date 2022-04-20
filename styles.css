@@ -45,6 +45,10 @@ h6 {
   margin: 0 auto;
 }
 
+.content {
+  margin: 2rem 0 0 0;
+}
+
 h1 {
   font-size: 3.375rem;
   font-weight: 300;
