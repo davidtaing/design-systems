@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Design Systems Practice</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="content">
+      <h1>David Taing</h1>
+      <h4>Sydney Based Property Manager turned React Developer.</h4>
+      <nav>
+        <ul class="nav__list">
+          <li class="nav__link">
+            <a target="_blank" href="https://teeang.net/">https://teeang.net/</a>
+          </li>
+          <li class="nav__link">
+            <a target="_blank" href="https://github.com/davidtaing">https://github.com/davidtaing</a>
+          </li>
+          <li class="nav__link">
+            <a target="_blank" href="https://www.linkedin.com/in/teeang/">https://www.linkedin.com/in/teeang/</a>
+          </li>
+        </ul>
+      </nav>
+      <section class="skills_section">
+        <h2 class="skills__heading">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__item">TypeScript</li>
+          <li class="skills__item">React</li>
+          <li class="skills__item">HTML</li>
+          <li class="skills__item">CSS</li>
+          <li class="skills__item">Jest</li>
+          <li class="skills__item">React Testing Library</li>
+          <li class="skills__item">Git</li>
+        </ul>
+        <h2 class="skills__heading">Exposure</h2>
+        <ul class="skills__list">
+          <li class="skills__item">Node</li>
+          <li class="skills__item">Express</li>
+          <li class="skills__item">Mongoose</li>
+          <li class="skills__item">OpenAPI</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Work Experience</h2>
+        <div class="employment">
+          <h3>Belle Property Strathfield - Property Manager</h3>
+          <h6>Jan 2022 - Current</h6>
+          <p></p>
+        </div>
+        <div class="employment">
+          <h3>Rodi Realty - Property Officer</h3>
+          <h6>Oct 2018 - Dec 2021</h6>
+          <p></p>
+        </div>
+      </section>
+      <section>
+        <h2>Projects</h2>
+        <div class="project">
+          <h3>Rental Applications</h3>
+          <a class="project__link" target="_blank" href="https://rental-applications.vercel.app/">Live Site</a>
+          <br/>
+          <a class="project__link" target="_blank" href="https://github.com/davidtaing/rental-applications">Github Repository</a>
+          <br/>
+          <ul>
+            <li>Next.js, React & TypeScript application where users can apply for rental properties.</li>
+          </ul>
+        </div>
+        <div class="project">
+          <h3>Domain Scraper</h3>
+          <a class="project__link" target="_blank" href="https://github.com/davidtaing/domain-scraper">Github Repository</a>
+          <br/>
+          <ul>
+            <li>Queries the Domain.com.au Developer API using Node for rental listings data and generates bar charts using R and ggplot2.</li>
+            <li>Extracts rental prices from displayPrice field which contained text such as <em>"Leased by Century 1 - $500 Per Week"</em> or <em>"$500PW - $530PW"</em>.</li>
+            <li>
+              <a target="_blank" href="https://raw.githubusercontent.com/davidtaing/domain-scraper/main/plots/listings/2140_ApartmentUnitFlat_2BR_2022-02-16.png">
+                Example Plot: 2 Bedroom Apartments & Units in the 2140 Postcode (Homebush & Homebush West)
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="project">
+          <h3>teeang.net</h3>
+          <a class="project__link" target="_blank" href="https://teeang.net">Live Site</a>
+          <br/>
+          <a class="project__link" target="_blank" href="https://github.com/davidtaing/portfolio">Github Repository</a>
+          <br/>
+          <ul>
+            <li>Portfolio website built with TypeScript, Next.js, React & Styled Components.</li>
+            <li>Integrated Blogposts from Headless GraphQL Wordpress.</li>
+            <li>Utilized the SendGrid API to send messages to my personal email via the "Contact Me" form.</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </div>
+</body>
+</html>
