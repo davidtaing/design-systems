@@ -43,7 +43,13 @@ h6 {
 
 .wrapper {
   max-width: 42.5rem;
-  margin: 0 auto;
+  margin: 0 1rem;
+}
+
+@media (min-width: 42.5rem) {
+  .wrapper {
+    margin: 0 auto;
+  }
 }
 
 .content {
