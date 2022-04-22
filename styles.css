@@ -125,6 +125,7 @@ button:active {
 }
 
 .btn--primary-outline {
+  padding: 0.205rem 0.875rem;
   color: var(--primary);
   border: solid;
   border-width: 2px;
@@ -155,6 +156,7 @@ button:active {
 }
 
 .btn--secondary-outline {
+  padding: 0.205rem 0.875rem;
   color: var(--secondary-500);
   border: solid;
   border-width: 2px;
@@ -185,6 +187,7 @@ button:active {
 }
 
 .btn--danger-outline {
+  padding: 0.205rem 0.875rem;
   color: var(--danger-500);
   border: solid;
   border-width: 2px;
